@@ -1,0 +1,8 @@
+{
+  "extends": "@postbote/tsconfig/ui.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

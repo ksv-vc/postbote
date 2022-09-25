@@ -1,0 +1,5 @@
+{
+  "extends": "@postbote/tsconfig/ui.json",
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

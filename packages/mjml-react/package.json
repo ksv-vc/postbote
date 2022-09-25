@@ -1,0 +1,60 @@
+{
+  "name": "@postbote/mjml-react",
+  "version": "0.1.0",
+  "license": "unlicensed",
+  "author": {
+    "name": "Nick Schmidt",
+    "email": "nick@fintory.com"
+  },
+  "main": "dist/index.js",
+  "exports": {
+    ".": "dist/index.mjs",
+    "./extensions/*": "./dist/extensions/*.js",
+    "./utils": "./dist/utils.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "clean": "rm -rf node_modules/ dist/",
+    "build": "tsup"
+  },
+  "tsup": {
+    "entry": [
+      "lib/index.ts",
+      "lib/utils.ts",
+      "lib/extensions/*.ts"
+    ],
+    "format": [
+      "cjs",
+      "esm"
+    ],
+    "dts": true,
+    "external": [
+      "color"
+    ],
+    "clean": true
+  },
+  "devDependencies": {
+    "@postbote/eslint-config": "workspace:*",
+    "@postbote/tsconfig": "workspace:*",
+    "@types/html-minifier": "^4.0.2",
+    "@types/mjml": "^4.7.0",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "mjml": "^4.13.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "tsup": "^6.2.3"
+  },
+  "peerDependencies": {
+    "mjml": "^4.13.0",
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "babel-runtime": "~6.25.0",
+    "color": "^4.2.3",
+    "prop-types": "^15.8.1"
+  }
+}

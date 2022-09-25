@@ -1,0 +1,20 @@
+{
+  "name": "example-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules/",
+    "dev": "postbote serve"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@postbote/mjml-react": "workspace:*",
+    "@postbote/cli": "workspace:*"
+  },
+  "devDependencies": {
+    "@postbote/eslint-config": "workspace:*",
+    "@types/node": "^18.7.17",
+    "eslint": "8.23.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "paths": {
+      "virtual:postbote-previews": ["./shared/postbote-previews.d.ts"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules/"] }
