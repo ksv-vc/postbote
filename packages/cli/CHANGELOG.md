@@ -1,5 +1,11 @@
 # `@postbote/cli` changelog
 
+## 0.3.0
+
+### Minor Changes
+
+- fixed a bug, where cli was interpreted as bash script
+
 ## 0.2.2
 
 ### Patch Changes
