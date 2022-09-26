@@ -1,5 +1,11 @@
 # `@postbote/cli` changelog
 
+## 0.2.2
+
+### Patch Changes
+
+- fix dependency to @babel/types (wrong version in package.json)
+
 ## 0.2.1
 
 ### Patch Changes

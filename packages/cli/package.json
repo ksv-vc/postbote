@@ -1,6 +1,6 @@
 {
   "name": "@postbote/cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "scripts": {
     "lint": "eslint .",
@@ -28,7 +28,7 @@
     "@babel/generator": "7.19.0",
     "@babel/template": "7.18.10",
     "@babel/traverse": "7.19.1",
-    "@babel/types": "7.18.3",
+    "@babel/types": "7.19.0",
     "@postbote/mjml-render": "workspace:*",
     "@vitejs/plugin-react": "2.1.0",
     "boxen": "5.1.2",
