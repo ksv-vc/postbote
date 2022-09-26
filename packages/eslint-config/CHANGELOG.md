@@ -1,4 +1,4 @@
-# `@postbote/mjml-render` changelog
+# @postbote/eslint-config
 
 ## 0.2.1
 

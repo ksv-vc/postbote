@@ -1,6 +1,7 @@
 {
   "name": "@postbote/mjml-react",
-  "version": "0.1.0",
+  "type": "module",
+  "version": "0.2.1",
   "license": "unlicensed",
   "author": {
     "name": "Nick Schmidt",
@@ -8,7 +9,7 @@
   },
   "source": "lib/index.ts",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "dist/index.js",
@@ -37,8 +38,7 @@
     ],
     "format": [
       "cjs",
-      "esm",
-      "modern"
+      "esm"
     ],
     "dts": true,
     "external": [

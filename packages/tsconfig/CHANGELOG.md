@@ -1,4 +1,4 @@
-# `@postbote/mjml-render` changelog
+# @postbote/tsconfig
 
 ## 0.2.1
 

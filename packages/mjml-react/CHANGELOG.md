@@ -1,3 +1,13 @@
 # `@postbote/mjml-react` changelog
 
-All changes to the `@postbote/mjml-react` project will be hinted to in this markdown document.
+## 0.2.1
+
+### Patch Changes
+
+- updated types references
+
+## 0.2.0
+
+### Minor Changes
+
+- initial release, see readme features for consultation
