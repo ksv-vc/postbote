@@ -26,6 +26,7 @@
   "scripts": {
     "lint": "eslint .",
     "clean": "rm -rf node_modules/ dist/",
+    "prepare": "pnpm run build",
     "build": "tsup"
   },
   "tsup": {

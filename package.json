@@ -6,11 +6,11 @@
     "lint": "turbo lint",
     "build": "turbo build",
     "dev": "turbo dev",
-    "clean": "turbo clean && rm -rf node_modules/"
+    "clean": "turbo clean && rm -rf node_modules/",
     "prepare": "husky install"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "^2.24.4",
     "husky": "8.0.1",
     "prettier": "2.7.1",
     "pretty-quick": "3.1.3",
