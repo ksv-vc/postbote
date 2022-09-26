@@ -1,4 +1,3 @@
-import { ReactElement } from "react";
 import {
   Mjml,
   MjmlBody,
@@ -10,9 +9,7 @@ import {
 type ExampleProps = {
   name: string;
   headline?: string;
-  body: ReactElement;
-  bulletedList?: ReactElement;
-  ctaText?: string;
+  body: string;
 };
 
 export const Example = ({ name, headline, body }: ExampleProps) => {
@@ -30,12 +27,10 @@ export const Example = ({ name, headline, body }: ExampleProps) => {
               Hello {name},
             </MjmlText>
             <MjmlText cssClass="paragraph" padding="0" fontSize={15}>
-              <>{body}</>
+              {body}
             </MjmlText>
             <MjmlText padding="16px 0" fontSize={15} cssClass="paragraph">
-              ♥,
-              <br />
-              Mailing
+              Best, Postbote!
             </MjmlText>
           </MjmlColumn>
         </MjmlSection>

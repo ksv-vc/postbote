@@ -7,14 +7,14 @@
     "dev": "postbote serve"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "@postbote/cli": "workspace:*",
     "@postbote/mjml-react": "workspace:*",
-    "@postbote/cli": "workspace:*"
+    "react": "18.2.0"
   },
   "devDependencies": {
     "@postbote/eslint-config": "workspace:*",
-    "@types/node": "^18.7.17",
+    "@types/node": "18.7.17",
+    "@types/react": "18.0.21",
     "eslint": "8.23.1"
   }
 }
