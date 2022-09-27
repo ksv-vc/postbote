@@ -24,14 +24,17 @@ const serve = async () => {
     server: {
       middlewareMode: true,
     },
-    define: {
-      "process.platform": "{}",
-    },
     build: {
       manifest: true,
     },
     optimizeDeps: {
-      include: ["react", "react-dom", "react-frame-component"],
+      include: [
+        "react",
+        "react-dom",
+        "react-dom/client",
+        "query-string",
+        "react-frame-component",
+      ],
     },
     plugins: [previewsModulePlugin(), react()],
   });
