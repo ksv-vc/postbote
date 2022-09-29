@@ -21,9 +21,10 @@ export const getPreviewComponentImports = previewEntries => {
         const Component = createElement(mod.default.preview);
         const staticMarkup = renderToStaticMarkup(Component);
         const { html } = mjml2html(staticMarkup);
+
         return {
-          default: () => createElement('div', {
-            dangerouslySetInnerHTML: { __html: html }
+          default: ({ as }) => createElement(as, {
+            initialContent: html
           })
         };
       })

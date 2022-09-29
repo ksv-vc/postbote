@@ -1,4 +1,6 @@
-export type FileId = string
+import { ComponentType } from "react";
+
+export type FileId = string;
 
 export type PreviewEntry = {
   [key: string]: {
@@ -11,6 +13,6 @@ export type PreviewEntry = {
 export type PreviewEntryList = {
   [key: string]: {
     fileId: FileId;
-    component: React.ComponentType<unknown>
-  },
-}
+    component: React.ComponentType<{ as?: string | ComponentType }>;
+  };
+};

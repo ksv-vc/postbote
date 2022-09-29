@@ -33,6 +33,7 @@ const serve = async () => {
         "react-dom",
         "react-dom/client",
         "query-string",
+        "@stitches/react",
         "react-frame-component",
       ],
     },
