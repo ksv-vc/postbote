@@ -3,6 +3,12 @@
   <img alt="Postbote" src="./assets/banner-root.png">
 </picture>
 
+### :triangular_flag_on_post: Quick Note
+
+This tool is in heavy development right now, since it has just started. Please be sure, that **even minor releases can include breaking changes.** 
+
+If you want to contribute, please have a glimpse at [the issues](https://github.com/ksv-vc/postbote/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+
 ## What is `postbote`?
 
 Postbote features a whole range of tools for easier development of email
