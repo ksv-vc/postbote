@@ -2,6 +2,12 @@
   "name": "@postbote/cli",
   "version": "0.4.0",
   "type": "module",
+  "homepage": "https://postbote.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksv-vc/postbote.git",
+    "directory": "packages/cli"
+  },
   "scripts": {
     "lint": "eslint .",
     "clean": "rm -rf node_modules/"
