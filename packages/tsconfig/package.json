@@ -1,6 +1,11 @@
 {
   "name": "@postbote/tsconfig",
   "version": "0.2.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksv-vc/postbote.git",
+    "directory": "packages/tsconfig"
+  },
   "files": [
     "base.json",
     "next.json",
