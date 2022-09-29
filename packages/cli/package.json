@@ -30,6 +30,7 @@
     "@babel/traverse": "7.19.1",
     "@babel/types": "7.19.0",
     "@postbote/mjml-render": "workspace:*",
+    "@stitches/react": "^1.2.8",
     "@vitejs/plugin-react": "2.1.0",
     "boxen": "5.1.2",
     "commander": "9.4.0",
