@@ -2,6 +2,7 @@
   "name": "example-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://postbote.dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksv-vc/postbote.git",

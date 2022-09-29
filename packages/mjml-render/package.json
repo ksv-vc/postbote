@@ -6,6 +6,7 @@
   "module": "dist/render.js",
   "source": "lib/render.ts",
   "types": "dist/render.d.ts",
+  "homepage": "https://postbote.dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksv-vc/postbote.git",

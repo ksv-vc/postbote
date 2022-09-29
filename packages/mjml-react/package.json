@@ -7,6 +7,7 @@
     "name": "Nick Schmidt",
     "email": "nick@fintory.com"
   },
+  "homepage": "https://postbote.dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksv-vc/postbote.git",
