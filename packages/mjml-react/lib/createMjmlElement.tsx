@@ -1,19 +1,17 @@
-import type { ComponentType, PropsWithChildren } from "react";
+import { createElement } from "react";
 import { handleMjmlProps } from "./utils";
 
-export default function createMjmlElement(
-  Tag: string,
-): ComponentType<PropsWithChildren<any>> {
-  const element: ComponentType<any> = ({
-    children,
-    ...props
-  }: PropsWithChildren<any>) => {
-    // TODO: Fix the attributes type.
-    // @ts-expect-error
-    return <Tag {...handleMjmlProps(props)}>{children}</Tag>;
-  };
+type SharedProps = {
+  dangerouslySetInnerHTML?: { __html: string };
+};
 
-  element.displayName = Tag;
-
-  return element;
+export default function createMjmlElement<
+  OptionalProps extends Record<string, any>,
+  RequiredProps extends Record<string, any> = {},
+>(Tag: string) {
+  return (props: Partial<OptionalProps> & RequiredProps & SharedProps) =>
+    createElement(
+      Tag,
+      handleMjmlProps<RequiredProps & Partial<OptionalProps>>(props),
+    );
 }

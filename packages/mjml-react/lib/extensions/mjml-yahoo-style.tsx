@@ -7,9 +7,9 @@ type MjmlYahooStyleProps = {
 export function MjmlYahooStyle({ children, ...props }: MjmlYahooStyleProps) {
   if (children?.trim().length) {
     return (
-      <MjmlRaw {...props}>
-        <style>{`@media screen yahoo {${children}}`}</style>
-      </MjmlRaw>
+      <MjmlRaw {...props}>{`
+        <style>@media screen yahoo {${children}}</style>
+      `}</MjmlRaw>
     );
   }
 
