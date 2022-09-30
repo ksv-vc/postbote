@@ -12,19 +12,19 @@ type Matrix<E extends string | number> =
 /**
  * Helpers for `em` values.
  */
-type Em = number | `${number}em`;
+type Em = number | `${number}` | `${number}em`;
 type EmMatrix = Matrix<Em>;
 
 /**
  * Helpers for `%` values.
  */
-type Percentage = number | `${number}%`;
+type Percentage = number | `${number}` | `${number}%`;
 type PercentageMatrix = Matrix<Percentage>;
 
 /**
  * Helpers for `px` values.
  */
-type Pixel = number | `${number}px`;
+type Pixel = number | `${number}` | `${number}px`;
 type PixelMatrix = Matrix<Pixel>;
 
 type HorizontalAlignment = "left" | "center" | "right";
@@ -459,21 +459,22 @@ export const MjmlTable = createMjmlElement<
   WithChildren
 >("mj-table");
 export const MjmlText = createMjmlElement<
-  ClassNameAttributes & {
-    color: string;
-    fontFamily: GenericAttributes["fontFamily"];
-    fontSize: Pixel;
-    fontStyle: "normal" | "italic" | "oblique";
-    fontWeight: number;
-    lineHeight: Pixel;
-    letterSpacing: Pixel | Em;
-    height: Pixel;
-    textDecoration: "underline" | "overline" | "line-through" | "none";
-    textTransform: "uppercase" | "lowercase" | "capitalize";
-    align: "left" | "right" | "center" | "justify";
-    containerBackgroundColor: string;
-  },
-  { children: string }
+  ClassNameAttributes &
+    PaddingAttributes & {
+      color: string;
+      fontFamily: GenericAttributes["fontFamily"];
+      fontSize: Pixel;
+      fontStyle: "normal" | "italic" | "oblique";
+      fontWeight: number;
+      lineHeight: Pixel;
+      letterSpacing: Pixel | Em;
+      height: Pixel;
+      textDecoration: "underline" | "overline" | "line-through" | "none";
+      textTransform: "uppercase" | "lowercase" | "capitalize";
+      align: "left" | "right" | "center" | "justify";
+      containerBackgroundColor: string;
+      children: string;
+    }
 >("mj-text");
 export const MjmlWrapper = createMjmlElement<
   BorderAttributes<true> &

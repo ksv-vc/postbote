@@ -34,8 +34,16 @@ const handlers: Record<string, Handler> = {
 export function handleMjmlProps<P extends Record<string, unknown>>(
   props: P,
 ): KebabCasedProperties<P> {
+  const transformProp = {
+    className: () => "mj-class",
+    cssClass: () => "mj-class",
+  };
+
   return Object.keys(props).reduce((acc, curr) => {
-    const mjmlProp = kebabCase(curr);
+    const keyTransform =
+      // @ts-expect-error
+      curr in transformProp ? transformProp[curr] : kebabCase;
+    const mjmlProp = keyTransform(curr);
 
     if (typeof props[curr] === "string") {
       return {
@@ -44,8 +52,8 @@ export function handleMjmlProps<P extends Record<string, unknown>>(
       };
     }
 
-    return acc;
-  }, {});
+    return { ...acc, [mjmlProp]: props[curr] };
+  }, {} as KebabCasedProperties<P>);
 }
 
 function handleMjmlProp(name: string, value: string) {
@@ -76,7 +84,7 @@ function handleColor(_name: string, value?: string | null) {
     const color = parseColor(value);
     if (color) {
       if (value[0] === "#" && value.length === 9) {
-        const alpha = color.alpha().toFixed(2);
+        const alpha = color.alpha();
         return color.rgb().alpha(alpha).toString();
       }
       return value;

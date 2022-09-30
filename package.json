@@ -6,6 +6,7 @@
     "lint": "turbo lint",
     "build": "turbo build",
     "dev": "turbo dev",
+    "test": "turbo test",
     "clean": "turbo clean && rm -rf node_modules/",
     "prepare": "husky install"
   },
