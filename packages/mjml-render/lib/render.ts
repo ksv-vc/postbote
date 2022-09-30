@@ -1,19 +1,19 @@
-import ReactDOM from "react-dom/server";
+import { renderToStaticMarkup } from "react-dom/server";
 import mjml2html from "mjml";
-import type { ReactElement } from 'react';
-import type { MJMLParseResult, MJMLParsingOptions } from "mjml";
+import type { ReactElement } from "react";
+import type { MJMLParseResults, MJMLParsingOptions } from "mjml-core";
 
 export default function render(
   mjmlContent: ReactElement<any>,
   options: Partial<MJMLParsingOptions> = {},
-): MJMLParseResult {
+): MJMLParseResults {
   const defaults: MJMLParsingOptions = {
     keepComments: false,
     beautify: false,
     validationLevel: "strict",
   };
 
-  const staticMarkup = ReactDOM.renderToStaticMarkup(mjmlContent);
+  const staticMarkup = renderToStaticMarkup(mjmlContent);
 
   return mjml2html(staticMarkup, {
     ...defaults,
