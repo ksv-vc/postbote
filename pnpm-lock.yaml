@@ -179,10 +179,7 @@ importers:
       "@postbote/tsconfig": workspace:*
       "@types/html-minifier": ^4.0.2
       "@types/mjml": ^4.7.0
-      "@types/mjml-core": ^4.7.1
-      "@types/react": ^18.0.21
       "@types/react-dom": ^18.0.6
-      html-minifier: ^4.0.0
       mjml: ^4.13.0
       mjml-core: ^4.13.0
       react-dom: ^18.0.0
@@ -192,10 +189,7 @@ importers:
       "@postbote/tsconfig": link:../tsconfig
       "@types/html-minifier": 4.0.2
       "@types/mjml": 4.7.0
-      "@types/mjml-core": 4.7.1
-      "@types/react": 18.0.21
       "@types/react-dom": 18.0.6
-      html-minifier: 4.0.0
       mjml: 4.13.0
       mjml-core: 4.13.0
       react-dom: 18.2.0
