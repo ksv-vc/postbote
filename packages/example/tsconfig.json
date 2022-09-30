@@ -13,8 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
+    "jsx": "preserve"
   },
   "include": ["next-env.d.ts", "**/*.js", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "jest.config.js"]

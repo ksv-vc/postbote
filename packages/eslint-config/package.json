@@ -2,6 +2,12 @@
   "name": "@postbote/eslint-config",
   "version": "0.2.1",
   "main": "lib/index.js",
+  "homepage": "https://postbote.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksv-vc/postbote.git",
+    "directory": "packages/eslint-config"
+  },
   "scripts": {
     "clean": "rm -rf node_modules/"
   },

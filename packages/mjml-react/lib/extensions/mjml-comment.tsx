@@ -1,5 +1,4 @@
 import { MjmlRaw } from "..";
-import { handleMjmlProps } from "../utils";
 
 type MjmlCommentProps = {
   children: string;
@@ -8,12 +7,7 @@ type MjmlCommentProps = {
 
 export function MjmlComment({ children, ...rest }: MjmlCommentProps) {
   if (children?.trim().length) {
-    return (
-      <MjmlRaw
-        {...handleMjmlProps(rest)}
-        dangerouslySetInnerHTML={{ __html: `<!--${children}-->` }}
-      />
-    );
+    return <MjmlRaw {...rest}>{`<!--${children}-->`}</MjmlRaw>;
   }
   return null;
 }
