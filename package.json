@@ -2,6 +2,11 @@
   "name": "postbote-root",
   "private": true,
   "license": "MIT",
+  "packageManager": "pnpm@7.9.3",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=6"
+  },
   "scripts": {
     "lint": "turbo lint",
     "build": "turbo build",
