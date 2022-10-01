@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Postbote",
+  tagline: "Your favorite email companion",
+  url: "https://postbote.dev/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ksv-vc", // Usually your GitHub org/user name.
+  projectName: "postbote", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,8 +36,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/ksv-vc/postbote",
+          editUrl: "https://github.com/ksv-vc/postbote",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -53,18 +52,17 @@ const config = {
         title: "My Site",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo@2x.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Getting started",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/ksv-vc/postbote",
             label: "GitHub",
             position: "right",
           },
@@ -77,7 +75,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Getting started",
                 to: "/docs/intro",
               },
             ],
@@ -113,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KS Ventures GmbH. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

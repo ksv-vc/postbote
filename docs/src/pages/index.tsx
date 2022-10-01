@@ -1,11 +1,9 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { styled } from "@stitches/react";
 import EmailPreview from "../components/EmailPreview";
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Container>
       <Header>
