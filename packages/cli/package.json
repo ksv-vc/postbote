@@ -41,7 +41,7 @@
     "boxen": "5.1.2",
     "commander": "9.4.1",
     "express": "4.18.1",
-    "globby": "11.0.0",
+    "globby": "11.1.0",
     "mjml-browser": "4.13.0",
     "query-string": "7.1.1",
     "react-frame-component": "5.2.3",
