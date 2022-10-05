@@ -39,7 +39,7 @@
     "@stitches/react": "^1.2.8",
     "@vitejs/plugin-react": "2.1.0",
     "boxen": "5.1.2",
-    "commander": "9.4.0",
+    "commander": "9.4.1",
     "express": "4.18.1",
     "globby": "11.0.0",
     "mjml-browser": "4.13.0",
