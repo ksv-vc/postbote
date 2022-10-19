@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/tsconfig",
+  "id": "packages/tsconfig",
+  "title": "tsconfig",
+  "description": "",
+  "source": "@site/docs/packages/tsconfig.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/tsconfig",
+  "permalink": "/docs/packages/tsconfig",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/tsconfig.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "mjml-render",
+    "permalink": "/docs/packages/mjml-render"
+  },
+  "next": {
+    "title": "Mjml",
+    "permalink": "/docs/components/mjml"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "why-postbote",
+  "id": "why-postbote",
+  "title": "Why Postbote?",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/why-postbote.md",
+  "sourceDirName": ".",
+  "slug": "/why-postbote",
+  "permalink": "/docs/why-postbote",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/why-postbote.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Why Postbote?",
+    "permalink": "/docs/intro"
+  }
+}

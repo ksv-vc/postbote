@@ -1,7 +1,7 @@
 {
   "name": "@postbote/mjml-render",
   "type": "module",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "dist/render.cjs",
   "module": "dist/render.js",
   "source": "lib/render.ts",

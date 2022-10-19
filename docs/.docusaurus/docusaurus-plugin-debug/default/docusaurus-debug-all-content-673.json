@@ -1,0 +1,429 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/ksv-vc/postbote/docs",
+          "editUrlLocalized": "https://github.com/ksv-vc/postbote/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/nick/dev/postbote/docs/sidebars.js",
+          "contentPath": "/Users/nick/dev/postbote/docs/docs",
+          "contentPathLocalized": "/Users/nick/dev/postbote/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "components/mjml",
+              "id": "components/mjml",
+              "title": "Mjml",
+              "description": "",
+              "source": "@site/docs/components/mjml.md",
+              "sourceDirName": "components",
+              "slug": "/components/mjml",
+              "permalink": "/docs/components/mjml",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/components/mjml.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Mjml"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tsconfig",
+                "permalink": "/docs/packages/tsconfig"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Why Postbote?",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Why Postbote?",
+                "permalink": "/docs/why-postbote"
+              },
+              "next": {
+                "title": "cli",
+                "permalink": "/docs/packages/cli"
+              }
+            },
+            {
+              "unversionedId": "packages/cli",
+              "id": "packages/cli",
+              "title": "cli",
+              "description": "",
+              "source": "@site/docs/packages/cli.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/cli",
+              "permalink": "/docs/packages/cli",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/cli.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Why Postbote?",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "eslint-config",
+                "permalink": "/docs/packages/eslint-config"
+              }
+            },
+            {
+              "unversionedId": "packages/eslint-config",
+              "id": "packages/eslint-config",
+              "title": "eslint-config",
+              "description": "",
+              "source": "@site/docs/packages/eslint-config.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/eslint-config",
+              "permalink": "/docs/packages/eslint-config",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/eslint-config.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "cli",
+                "permalink": "/docs/packages/cli"
+              },
+              "next": {
+                "title": "example",
+                "permalink": "/docs/packages/example"
+              }
+            },
+            {
+              "unversionedId": "packages/example",
+              "id": "packages/example",
+              "title": "example",
+              "description": "",
+              "source": "@site/docs/packages/example.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/example",
+              "permalink": "/docs/packages/example",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "eslint-config",
+                "permalink": "/docs/packages/eslint-config"
+              },
+              "next": {
+                "title": "mjml-react",
+                "permalink": "/docs/packages/mjml-react"
+              }
+            },
+            {
+              "unversionedId": "packages/mjml-react",
+              "id": "packages/mjml-react",
+              "title": "mjml-react",
+              "description": "",
+              "source": "@site/docs/packages/mjml-react.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/mjml-react",
+              "permalink": "/docs/packages/mjml-react",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/mjml-react.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "example",
+                "permalink": "/docs/packages/example"
+              },
+              "next": {
+                "title": "mjml-render",
+                "permalink": "/docs/packages/mjml-render"
+              }
+            },
+            {
+              "unversionedId": "packages/mjml-render",
+              "id": "packages/mjml-render",
+              "title": "mjml-render",
+              "description": "",
+              "source": "@site/docs/packages/mjml-render.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/mjml-render",
+              "permalink": "/docs/packages/mjml-render",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/mjml-render.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "mjml-react",
+                "permalink": "/docs/packages/mjml-react"
+              },
+              "next": {
+                "title": "tsconfig",
+                "permalink": "/docs/packages/tsconfig"
+              }
+            },
+            {
+              "unversionedId": "packages/tsconfig",
+              "id": "packages/tsconfig",
+              "title": "tsconfig",
+              "description": "",
+              "source": "@site/docs/packages/tsconfig.md",
+              "sourceDirName": "packages",
+              "slug": "/packages/tsconfig",
+              "permalink": "/docs/packages/tsconfig",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/tsconfig.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "mjml-render",
+                "permalink": "/docs/packages/mjml-render"
+              },
+              "next": {
+                "title": "Mjml",
+                "permalink": "/docs/components/mjml"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/congratulations",
+              "id": "tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/docs/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/docs/tutorial-basics/congratulations",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/tutorial-basics/create-a-document",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/tutorial-basics/create-a-page",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/markdown-features",
+              "id": "tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/docs/tutorial-basics/markdown-features",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              }
+            },
+            {
+              "unversionedId": "why-postbote",
+              "id": "why-postbote",
+              "title": "Why Postbote?",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/why-postbote.md",
+              "sourceDirName": ".",
+              "slug": "/why-postbote",
+              "permalink": "/docs/why-postbote",
+              "draft": false,
+              "editUrl": "https://github.com/ksv-vc/postbote/docs/why-postbote.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Why Postbote?",
+                "permalink": "/docs/intro"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "why-postbote",
+                "label": "Why Postbote?",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "intro",
+                "label": "Getting started",
+                "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Packages",
+                "collapsible": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "packages/cli"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "packages/eslint-config"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "packages/example"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "packages/mjml-react"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "packages/mjml-render"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "packages/tsconfig"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "type": "category",
+                "label": "Components",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "components/mjml"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

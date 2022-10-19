@@ -1,5 +1,13 @@
 # @postbote/tsconfig
 
+## 0.2.2
+
+### Patch Changes
+
+- [#29](https://github.com/ksv-vc/postbote/pull/29) [`d0919a6`](https://github.com/ksv-vc/postbote/commit/d0919a64950edfd736e7472ed0a367e3181b8d98) Thanks [@iduuck](https://github.com/iduuck)! - add `homepage` key to package.json's
+
+- [#29](https://github.com/ksv-vc/postbote/pull/29) [`81b983d`](https://github.com/ksv-vc/postbote/commit/81b983d729d760de9dcb58d7e8dfa5cf7d79bef0) Thanks [@iduuck](https://github.com/iduuck)! - add `repository` key to package.json's
+
 ## 0.2.1
 
 ### Patch Changes

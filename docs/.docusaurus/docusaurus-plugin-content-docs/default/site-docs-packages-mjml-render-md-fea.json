@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/mjml-render",
+  "id": "packages/mjml-render",
+  "title": "mjml-render",
+  "description": "",
+  "source": "@site/docs/packages/mjml-render.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/mjml-render",
+  "permalink": "/docs/packages/mjml-render",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/mjml-render.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "mjml-react",
+    "permalink": "/docs/packages/mjml-react"
+  },
+  "next": {
+    "title": "tsconfig",
+    "permalink": "/docs/packages/tsconfig"
+  }
+}

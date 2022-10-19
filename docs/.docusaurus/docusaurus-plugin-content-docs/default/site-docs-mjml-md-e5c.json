@@ -1,0 +1,15 @@
+{
+  "unversionedId": "mjml",
+  "id": "mjml",
+  "title": "mjml",
+  "description": "",
+  "source": "@site/docs/mjml.md",
+  "sourceDirName": ".",
+  "slug": "/mjml",
+  "permalink": "/docs/mjml",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/mjml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

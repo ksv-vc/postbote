@@ -1,0 +1,22 @@
+{
+  "unversionedId": "components/mjml",
+  "id": "components/mjml",
+  "title": "Mjml",
+  "description": "",
+  "source": "@site/docs/components/mjml.md",
+  "sourceDirName": "components",
+  "slug": "/components/mjml",
+  "permalink": "/docs/components/mjml",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/components/mjml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Mjml"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tsconfig",
+    "permalink": "/docs/packages/tsconfig"
+  }
+}

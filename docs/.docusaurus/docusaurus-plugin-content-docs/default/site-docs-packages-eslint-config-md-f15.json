@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/eslint-config",
+  "id": "packages/eslint-config",
+  "title": "eslint-config",
+  "description": "",
+  "source": "@site/docs/packages/eslint-config.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/eslint-config",
+  "permalink": "/docs/packages/eslint-config",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/eslint-config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cli",
+    "permalink": "/docs/packages/cli"
+  },
+  "next": {
+    "title": "example",
+    "permalink": "/docs/packages/example"
+  }
+}

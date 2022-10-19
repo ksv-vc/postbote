@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/mjml-react",
+  "id": "packages/mjml-react",
+  "title": "mjml-react",
+  "description": "",
+  "source": "@site/docs/packages/mjml-react.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/mjml-react",
+  "permalink": "/docs/packages/mjml-react",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/mjml-react.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "example",
+    "permalink": "/docs/packages/example"
+  },
+  "next": {
+    "title": "mjml-render",
+    "permalink": "/docs/packages/mjml-render"
+  }
+}

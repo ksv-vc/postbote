@@ -1,0 +1,97 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "why-postbote",
+          "docs": [
+            {
+              "id": "components/mjml",
+              "path": "/docs/components/mjml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/cli",
+              "path": "/docs/packages/cli",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/eslint-config",
+              "path": "/docs/packages/eslint-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/example",
+              "path": "/docs/packages/example",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/mjml-react",
+              "path": "/docs/packages/mjml-react",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/mjml-render",
+              "path": "/docs/packages/mjml-render",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "packages/tsconfig",
+              "path": "/docs/packages/tsconfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "why-postbote",
+              "path": "/docs/why-postbote",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/why-postbote",
+                "label": "Why Postbote?"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

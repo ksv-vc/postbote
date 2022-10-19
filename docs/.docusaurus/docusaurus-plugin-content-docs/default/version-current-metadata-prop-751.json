@@ -1,0 +1,170 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Why Postbote?",
+        "href": "/docs/why-postbote",
+        "docId": "why-postbote"
+      },
+      {
+        "type": "link",
+        "label": "Getting started",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Packages",
+        "collapsible": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "cli",
+            "href": "/docs/packages/cli",
+            "docId": "packages/cli"
+          },
+          {
+            "type": "link",
+            "label": "eslint-config",
+            "href": "/docs/packages/eslint-config",
+            "docId": "packages/eslint-config"
+          },
+          {
+            "type": "link",
+            "label": "example",
+            "href": "/docs/packages/example",
+            "docId": "packages/example"
+          },
+          {
+            "type": "link",
+            "label": "mjml-react",
+            "href": "/docs/packages/mjml-react",
+            "docId": "packages/mjml-react"
+          },
+          {
+            "type": "link",
+            "label": "mjml-render",
+            "href": "/docs/packages/mjml-render",
+            "docId": "packages/mjml-render"
+          },
+          {
+            "type": "link",
+            "label": "tsconfig",
+            "href": "/docs/packages/tsconfig",
+            "docId": "packages/tsconfig"
+          }
+        ],
+        "collapsed": false
+      },
+      {
+        "type": "category",
+        "label": "Components",
+        "items": [
+          {
+            "type": "link",
+            "label": "Mjml",
+            "href": "/docs/components/mjml",
+            "docId": "components/mjml"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "components/mjml": {
+      "id": "components/mjml",
+      "title": "Mjml",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Why Postbote?",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/cli": {
+      "id": "packages/cli",
+      "title": "cli",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/eslint-config": {
+      "id": "packages/eslint-config",
+      "title": "eslint-config",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/example": {
+      "id": "packages/example",
+      "title": "example",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/mjml-react": {
+      "id": "packages/mjml-react",
+      "title": "mjml-react",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/mjml-render": {
+      "id": "packages/mjml-render",
+      "title": "mjml-render",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "packages/tsconfig": {
+      "id": "packages/tsconfig",
+      "title": "tsconfig",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/congratulations": {
+      "id": "tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template."
+    },
+    "tutorial-basics/create-a-blog-post": {
+      "id": "tutorial-basics/create-a-blog-post",
+      "title": "Create a Blog Post",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed..."
+    },
+    "tutorial-basics/create-a-document": {
+      "id": "tutorial-basics/create-a-document",
+      "title": "Create a Document",
+      "description": "Documents are groups of pages connected through:"
+    },
+    "tutorial-basics/create-a-page": {
+      "id": "tutorial-basics/create-a-page",
+      "title": "Create a Page",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:"
+    },
+    "tutorial-basics/deploy-your-site": {
+      "id": "tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack)."
+    },
+    "tutorial-basics/markdown-features": {
+      "id": "tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features."
+    },
+    "why-postbote": {
+      "id": "why-postbote",
+      "title": "Why Postbote?",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

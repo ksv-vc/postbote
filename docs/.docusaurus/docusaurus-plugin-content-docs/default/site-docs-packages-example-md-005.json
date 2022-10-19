@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/example",
+  "id": "packages/example",
+  "title": "example",
+  "description": "",
+  "source": "@site/docs/packages/example.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/example",
+  "permalink": "/docs/packages/example",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/example.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "eslint-config",
+    "permalink": "/docs/packages/eslint-config"
+  },
+  "next": {
+    "title": "mjml-react",
+    "permalink": "/docs/packages/mjml-react"
+  }
+}

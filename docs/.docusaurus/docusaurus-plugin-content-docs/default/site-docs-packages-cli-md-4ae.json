@@ -1,0 +1,24 @@
+{
+  "unversionedId": "packages/cli",
+  "id": "packages/cli",
+  "title": "cli",
+  "description": "",
+  "source": "@site/docs/packages/cli.md",
+  "sourceDirName": "packages",
+  "slug": "/packages/cli",
+  "permalink": "/docs/packages/cli",
+  "draft": false,
+  "editUrl": "https://github.com/ksv-vc/postbote/docs/packages/cli.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why Postbote?",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "eslint-config",
+    "permalink": "/docs/packages/eslint-config"
+  }
+}
