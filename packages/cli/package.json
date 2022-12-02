@@ -24,7 +24,7 @@
     "@types/debug": "4.1.7",
     "@types/express": "4.17.14",
     "@types/node": "18.7.18",
-    "@types/react": "18.0.20",
+    "@types/react": "18.0.26",
     "@types/react-dom": "18.0.6",
     "debug": "latest",
     "react": "18.0.0",
