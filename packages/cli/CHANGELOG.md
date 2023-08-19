@@ -1,5 +1,11 @@
 # `@postbote/cli` changelog
 
+## 0.6.0
+
+### Minor Changes
+
+- [`57803f6`](https://github.com/ksv-vc/postbote/commit/57803f6f617bac7f3cad9a7e18e7d1c80ace8b7a) Thanks [@iduuck](https://github.com/iduuck)! - add option to use `react-email` in previews
+
 ## 0.5.0
 
 ### Minor Changes

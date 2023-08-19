@@ -15,8 +15,10 @@
     "clean": "turbo clean && rm -rf node_modules/",
     "publish": "changeset publish",
     "changeset": "changeset add",
+    "changeset:apply": "changeset version",
     "prepare": "husky install"
   },
+  "author": "KS Ventures GmbH <hi@ksv.vc>",
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.6",
     "@changesets/cli": "^2.24.4",
