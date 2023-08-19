@@ -1,4 +1,4 @@
-import { Simple } from "../emails/Simple";
+import { Simple } from "../emails/mjml/Simple";
 
 export default {
   preview: () => (

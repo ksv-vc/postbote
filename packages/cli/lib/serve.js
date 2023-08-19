@@ -28,12 +28,16 @@ const serve = async () => {
       manifest: true,
     },
     optimizeDeps: {
+      esbuildOptions: {
+        target: "es2020",
+      },
       include: [
         "react",
         "react-dom",
         "react-dom/client",
         "query-string",
         "@stitches/react",
+        "@react-email/components",
         "react-frame-component",
       ],
     },

@@ -5,7 +5,7 @@
 
 ### :triangular_flag_on_post: Quick Note
 
-This tool is in heavy development right now, since it has just started. Please be sure, that **even minor releases can include breaking changes.** 
+This tool is in heavy development right now, since it has just started. Please be sure, that **even minor releases can include breaking changes.**
 
 If you want to contribute, please have a glimpse at [the issues](https://github.com/ksv-vc/postbote/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
@@ -29,14 +29,14 @@ exported for usage in a Ruby on Rails, Python, or other project.
 
 ## Features
 
-|                 | Feature |
-| --------------- | :--- |
-| :battery:       | Easy layouting with `@postbote/mjml-react` (predefined tags for React) |
-| :tada:          | Render function optimized for isomorphic usage |
-| :balloon:       | No important dependencies in your project (other than React) |
-| :nut_and_bolt:  | Easy configuration through CLI, config file, or programatically |
-| :clap:          | First-level mono-repo support |
-| :electric_plug: | **[Planned](https://github.com/ksv-vc/postbote/issues/10):** Renderer for other frameworks (React not necessary) |
+|                 | Feature                                                                                                                          |
+| --------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| :battery:       | Easy layouting with `@postbote/mjml-react` (predefined tags for React)                                                           |
+| :tada:          | Render function optimized for isomorphic usage                                                                                   |
+| :balloon:       | No important dependencies in your project (other than React)                                                                     |
+| :nut_and_bolt:  | Easy configuration through CLI, config file, or programatically                                                                  |
+| :clap:          | First-level mono-repo support                                                                                                    |
+| :electric_plug: | **[Planned](https://github.com/ksv-vc/postbote/issues/10):** Renderer for other frameworks (React not necessary)                 |
 | :wrench:        | **[Planned](https://github.com/ksv-a/postbote/issues/9):** Easily extensible through addons (support other templating than mjml) |
 
 ## Development

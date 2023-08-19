@@ -1,1 +1,1 @@
-export const importPath = process.cwd()
+export const importPath = process.cwd();

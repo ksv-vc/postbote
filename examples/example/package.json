@@ -15,6 +15,7 @@
   "dependencies": {
     "@postbote/cli": "workspace:*",
     "@postbote/mjml-react": "workspace:*",
+    "@react-email/components": "latest",
     "react": "18.2.0"
   },
   "devDependencies": {

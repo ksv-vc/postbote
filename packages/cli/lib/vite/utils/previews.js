@@ -1,6 +1,7 @@
 import path from "path";
 import ReactDOMServer from "react-dom/server";
 import { log } from "../../logger.js";
+import { camelize } from "./camelize.js";
 
 /**
  * @param {string[]} entries
@@ -25,5 +26,7 @@ export const getPreviewData = async entries => {
  */
 export const getFileId = filename => {
   const pathParts = filename.split("/");
-  return pathParts[pathParts.length - 1].split(".")[0];
+  const pathPart = pathParts[pathParts.length - 1].split(".")[0];
+
+  return camelize(pathPart);
 };
