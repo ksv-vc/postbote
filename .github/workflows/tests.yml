@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v2.4.1
         with:
           version: ${{ matrix.pnpmVersion }}
       - name: Setup Node.js
