@@ -31,10 +31,10 @@
     "react-dom": "18.0.0"
   },
   "dependencies": {
-    "@babel/generator": "7.19.0",
-    "@babel/template": "7.18.10",
+    "@babel/generator": "7.25.9",
+    "@babel/template": "7.25.9",
     "@babel/traverse": "7.19.1",
-    "@babel/types": "7.19.0",
+    "@babel/types": "7.25.9",
     "@postbote/mjml-render": "workspace:*",
     "@stitches/react": "^1.2.8",
     "@vitejs/plugin-react": "2.1.0",
